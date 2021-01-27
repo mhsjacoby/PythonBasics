@@ -53,8 +53,8 @@ ref: https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 After updating branch `Maggie-Edits`:
 ```
-    $ git checkout master
-    $ git merge Maggie-Edits
+$ git checkout master
+$ git merge Maggie-Edits
 ```
 If you start a merge and then want to cancel it: `$ git merge --abort`
 
@@ -66,9 +66,11 @@ ref: https://www.oreilly.com/library/view/git-pocket-guide/9781449327507/ch07.ht
 
 To reset to previous commit: `$ git reset <commit hash>` 
 
-To view commit merges open file in text editor
+To view commit merges open: file in text editor
 
 ### Delete branch
 (locally)
+
 `$ git branch --delete <branch> `
+
 ref: https://gist.github.com/cmatskas/454e3369e6963a1c8c89
