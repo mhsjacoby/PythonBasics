@@ -1,5 +1,5 @@
 # Git Notes
-Author: Maggie Jacoby
+Author: Maggie Jacoby<br>
 Date: January 2021
 
 
