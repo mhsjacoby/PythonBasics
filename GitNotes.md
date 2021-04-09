@@ -24,23 +24,6 @@ ref:
 http://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/  
 https://www.pluralsight.com/guides/how-to-use-gitignore-file )
 
-### Files to add to .gitignore
-```
-*/.DS_Store
-*/.ipynb_checkpoints
-*/__pycache__
-.DS_Store
-.ipynb_checkpoints
-__pycache__
-.gitignore
-.gitattributes
-```
-
-### Add to .gitattributes
-```
-*.ipynb linguist-language=Python
-```
-
 ***
 ## Branching
 
@@ -60,7 +43,6 @@ If you start a merge and then want to cancel it: `$ git merge --abort`
 
 ref: https://www.oreilly.com/library/view/git-pocket-guide/9781449327507/ch07.html
 
-
 ### check git log:
 `$ git log --oneline`
 
@@ -74,3 +56,17 @@ To view commit merges open: file in text editor
 `$ git branch --delete <branch> `
 
 ref: https://gist.github.com/cmatskas/454e3369e6963a1c8c89
+
+### Files to add to .gitignore
+```
+*/.DS_Store
+*/.ipynb_checkpoints
+*/__pycache__
+.gitignore
+.gitattributes
+```
+
+### Add to .gitattributes
+```
+*.ipynb linguist-language=Python
+```
